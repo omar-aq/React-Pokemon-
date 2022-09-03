@@ -1,0 +1,86 @@
+body {
+  background-color: #e5f3f7 !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  /* min-height: 100vh; */
+  padding: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.single-pokemon {
+  /* min-height: 100vh; */
+  padding: 20px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  border-radius: 15px;
+  background-color: #fff;
+  font-family: "Dancing Script", cursive;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+  border-radius: 15px;
+}
+.hiding {
+  opacity: 0.9;
+  font-weight: 1000;
+  color: #b4b4b4;
+}
+.App-link {
+  color: #61dafb;
+}
+.fn {
+  display: flex;
+  justify-content: center;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  padding: 20px;
+}
+.rock {
+  background-color: rgb(148, 81, 81) !important;
+}
+.ghost {
+  background-color: rgb(247, 247, 247) !important;
+}
+.electric {
+  background-color: rgb(255, 255, 161) !important;
+}
+.bug {
+  background-color: #f6d6a7 !important;
+}
+.poison {
+  background-color: #e0a7f6 !important;
+}
+.normal {
+  background-color: #f4f4f4 !important;
+}
+.fairy {
+  background-color: rgba(255, 192, 203, 0.863) !important;
+}
+.fire {
+  background-color: #fbe3df !important;
+}
+.grass {
+  background-color: #e2f9e1 !important;
+}
+.water {
+  background-color: #e0f1fd !important;
+}
+.form-control {
+  width: 50% !important;
+}
