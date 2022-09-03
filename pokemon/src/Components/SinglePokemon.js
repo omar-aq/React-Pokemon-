@@ -29,8 +29,8 @@ const SinglePokemon = () => {
     <>
       <Header />
       <Container>
-        {singlePokemon.pokemons && (
-          <section className="single-pokemon">
+        <section className="single-pokemon">
+          {singlePokemon.pokemons && (
             <Row>
               <Col
                 className={`info ${singlePokemon.pokemons.types[0].type.name}`}
@@ -63,9 +63,9 @@ const SinglePokemon = () => {
                 />
               </Col>
             </Row>
-          </section>
-        )}
-        {!singlePokemon.pokemons && <Loading />}
+          )}
+          {!singlePokemon.pokemons && <Loading />}
+        </section>
         <div className="fn">
           <Link to={"/"}>
             <Button>Home</Button>
