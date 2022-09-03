@@ -28,7 +28,12 @@ body {
   background-color: #fff;
   font-family: "Dancing Script", cursive;
 }
-
+.pokPic img {
+  height: 300;
+  width: 400;
+  background-color: #fff;
+  border-radius: 50%;
+}
 .info {
   display: flex;
   flex-direction: column;
